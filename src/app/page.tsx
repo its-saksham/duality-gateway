@@ -147,7 +147,7 @@ export default function DualityGateway() {
           
           <div className="group bg-[#0A0A0A] p-6 flex flex-col justify-center col-span-4 md:col-span-3 row-span-2 hover:bg-[#EDEDED] hover:text-[#0A0A0A] transition-colors duration-500">
             <div className="text-5xl md:text-6xl font-bold leading-none tracking-tighter">
-              SYS.ENG<motion.span animate={{ opacity: [1, 0] }} transition={{ duration: 1, repeat: Infinity, ease: "stepEnd" }} className="inline-block w-4 h-10 md:w-6 md:h-12 bg-current ml-3 align-middle" />
+              SYS.ENG<motion.span animate={{ opacity: [1, 0] }} transition={{ duration: 1, repeat: Infinity, ease: "linear" }} className="inline-block w-4 h-10 md:w-6 md:h-12 bg-current ml-3 align-middle" />
             </div>
             <div className="text-[10px] md:text-xs uppercase mt-6 font-bold text-zinc-500 group-hover:text-zinc-800 transition-colors">
               STRICT ARCHITECTURE // EMBEDDED // QUANTS
